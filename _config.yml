@@ -1,5 +1,13 @@
-title: Leap Day theme
+title: Machine Learning Scribble
 description: Leap Day is a theme for GitHub Pages.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://EvangelineArenzia.github.io" # the base hostname & protocol for your site
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-seo-tag
